@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Learn more about Caleb Makori, a web developer and graphic designer passionate about creating modern digital experiences.">
+
+    <meta name="author" content="Caleb Makori">
+
+    <title>About Me | Caleb Makori</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/about me.css">
+
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+        <p>Loading About Me...</p>
+    </div>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                CALEB<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navigation">
+
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="navigation" id="navigation" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active" aria-current="page">About Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html" class="nav-contact">Contact Me</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <!-- Page Hero -->
+        <section class="about-hero">
+
+            <div class="container about-hero-content">
+
+                <span class="section-label">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                    GET TO KNOW ME
+                </span>
+
+                <h1>
+                    About <span>Me</span>
+                </h1>
+
+                <p>
+                    Discover the person behind the code, the creativity
+                    behind the designs, and the passion driving my journey
+                    in technology.
+                </p>
+
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <span>About Me</span>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= PROFILE SECTION ================= -->
+        <section class="about-profile section-padding">
+
+            <div class="container about-grid">
+
+                <!-- Profile Image -->
+                <div class="about-image-wrapper">
+
+                    <div class="image-glow"></div>
+
+                    <div class="about-image-frame">
+
+                        <img
+                            src="images/ddd.jpg"
+                            alt="Portrait of Caleb Makori"
+                            class="about-profile-image"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                        >
+
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Add Your Profile Photo</span>
+                        </div>
+
+                    </div>
+
+                    <div class="experience-card">
+                        <i class="fa-solid fa-code"></i>
+                        <div>
+                            <strong>Code & Creativity</strong>
+                            <span>My passion, my journey</span>
+                        </div>
+                    </div>
+
+                    <div class="decorative-circle"></div>
+
+                </div>
+
+                <!-- About Text -->
+                <div class="about-content">
+
+                    <span class="section-label">
+                        <i class="fa-solid fa-terminal"></i>
+                        WHO I AM
+                    </span>
+
+                    <h2>
+                        Hello, I'm <span>Caleb Makori</span>
+                    </h2>
+
+                    <h3>
+                        Web Developer <span>&</span> Graphic Designer
+                    </h3>
+
+                    <p>
+                        I am a technology enthusiast with a passion for
+                        web development, graphic design, and creating
+                        meaningful digital experiences. I enjoy transforming
+                        ideas into attractive, functional, and user-friendly
+                        websites.
+                    </p>
+
+                    <p>
+                        My journey involves continuously learning new
+                        technologies, improving my design skills, and
+                        exploring creative ways to solve problems through
+                        technology. I believe that a great digital product
+                        should not only look good but also provide a
+                        valuable experience for its users.
+                    </p>
+
+                    <p>
+                        Whether I am building a website, designing a graphic,
+                        or developing an application, I aim to combine
+                        creativity, functionality, and attention to detail
+                        in every project.
+                    </p>
+
+                    <div class="about-highlights">
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Creative Problem Solving</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Continuous Learning</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Modern Web Design</span>
+                        </div>
+
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span>Attention to Detail</span>
+                        </div>
+
+                    </div>
+
+                    <div class="about-buttons">
+                        <a href="projects.html" class="btn btn-primary">
+                            Explore My Projects
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="contact.html" class="btn btn-outline">
+                            Let's Connect
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= MY MISSION ================= -->
+        <section class="mission-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MY PURPOSE</span>
+
+                    <h2>
+                        My Mission & <span>Vision</span>
+                    </h2>
+
+                    <p>
+                        The principles that guide my growth and work
+                        in technology and design.
+                    </p>
+                </div>
+
+                <div class="mission-grid">
+
+                    <article class="mission-card">
+
+                        <div class="mission-icon">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+
+                        <h3>My Mission</h3>
+
+                        <p>
+                            To develop useful, responsive, and visually
+                            appealing digital solutions while continuously
+                            improving my technical and creative skills.
+                            I strive to create work that solves problems,
+                            communicates ideas clearly, and delivers value
+                            to users.
+                        </p>
+
+                    </article>
+
+                    <article class="mission-card">
+
+                        <div class="mission-icon">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+
+                        <h3>My Vision</h3>
+
+                        <p>
+                            To grow into a skilled and innovative
+                            technology professional, recognized for
+                            developing quality digital products and
+                            creative designs that make a positive
+                            difference in businesses and communities.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= MY INTERESTS ================= -->
+        <section class="interests-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">WHAT I ENJOY</span>
+
+                    <h2>
+                        My Areas of <span>Interest</span>
+                    </h2>
+
+                    <p>
+                        These are some of the areas that inspire my
+                        creativity and professional development.
+                    </p>
+                </div>
+
+                <div class="interests-grid">
+
+                    <article class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Building responsive websites with clean
+                            structure, useful features, and attractive
+                            user interfaces.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+
+                        <h3>Graphic Design</h3>
+
+                        <p>
+                            Creating engaging visual content, promotional
+                            graphics, posters, and designs that communicate
+                            ideas effectively.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+
+                        <h3>Database Development</h3>
+
+                        <p>
+                            Learning how to organize, store, and manage
+                            information to support reliable and functional
+                            applications.
+                        </p>
+                    </article>
+
+                    <article class="interest-card">
+                        <div class="interest-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+
+                        <h3>Innovation</h3>
+
+                        <p>
+                            Exploring new ideas, learning emerging
+                            technologies, and finding creative approaches
+                            to everyday challenges.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= PERSONAL VALUES ================= -->
+        <section class="values-section section-padding">
+
+            <div class="container values-container">
+
+                <div class="values-content">
+
+                    <span class="section-label">WHAT DRIVES ME</span>
+
+                    <h2>
+                        My Core <span>Values</span>
+                    </h2>
+
+                    <p>
+                        I believe that professional growth comes from
+                        curiosity, discipline, creativity, and a willingness
+                        to improve. These values influence how I learn,
+                        collaborate, and approach each project.
+                    </p>
+
+                </div>
+
+                <div class="values-list">
+
+                    <div class="value-item">
+                        <span class="value-number">01</span>
+
+                        <div>
+                            <h3>Creativity</h3>
+                            <p>
+                                Thinking beyond the ordinary to develop
+                                fresh ideas and designs.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value-item">
+                        <span class="value-number">02</span>
+
+                        <div>
+                            <h3>Consistency</h3>
+                            <p>
+                                Practising regularly and working steadily
+                                toward my goals.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value-item">
+                        <span class="value-number">03</span>
+
+                        <div>
+                            <h3>Quality</h3>
+                            <p>
+                                Paying attention to details and aiming
+                                to deliver work I can be proud of.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="value-item">
+                        <span class="value-number">04</span>
+
+                        <div>
+                            <h3>Growth</h3>
+                            <p>
+                                Remaining open to feedback, new ideas,
+                                and continuous improvement.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= CALL TO ACTION ================= -->
+        <section class="about-cta">
+
+            <div class="container cta-content">
+
+                <span class="section-label">LET'S CREATE SOMETHING</span>
+
+                <h2>
+                    Have an Idea? Let's <span>Build It.</span>
+                </h2>
+
+                <p>
+                    I'm interested in connecting with people who value
+                    technology, creativity, and meaningful digital
+                    experiences.
+                </p>
+
+                <a href="contact.html" class="btn btn-primary">
+                    Get In Touch
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="index.html" class="logo">
+                CALEB<span>.</span>
+            </a>
+
+            <p>
+                Designed with creativity and built with passion.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="#" aria-label="LinkedIn profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="GitHub profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram profile">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+            <p class="copyright">
+                &copy; <span id="current-year"></span>
+                Caleb Makori. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="scripts/about me.js"></script>
+
+</body>
+</html>

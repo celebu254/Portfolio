@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Caleb Makori is a web developer and graphic designer creating modern websites and creative digital experiences.">
+
+    <meta name="keywords"
+          content="Caleb Makori, Web Developer, Graphic Designer, Portfolio, Frontend Developer">
+
+    <meta name="author" content="Caleb Makori">
+
+    <meta name="theme-color" content="#0b0b0f">
+
+    <title>Caleb Makori | Web Developer & Graphic Designer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+    <div class="preloader" id="preloader" aria-label="Loading website">
+        <div class="loader"></div>
+        <span>LOADING PORTFOLIO...</span>
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+
+        <div class="container navbar">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo" aria-label="Caleb Makori homepage">
+                <span class="logo-bracket">&lt;</span>
+                CALEB<span class="logo-highlight">.</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="navigation" id="navigation" aria-label="Main navigation">
+
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="about me .html" class="nav-link">About me</a>
+                <a href="skills.html" class="nav-link">Skills</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="testimonials.html" class="nav-link">Reference</a>
+                <a href="education.html" class="nav-link">Education</a>
+
+                <a href="contact.html" class="nav-cta">
+                    Let's Talk
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+
+            </nav>
+
+            <!-- Mobile Navigation Button -->
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-controls="navigation"
+                    aria-expanded="false">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO / LANDING SECTION ================= -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <!-- Decorative Background Elements -->
+            <div class="hero-glow hero-glow-one"></div>
+            <div class="hero-glow hero-glow-two"></div>
+
+            <div class="container hero-container">
+
+                <!-- LEFT SIDE: INTRODUCTION -->
+                <div class="hero-content">
+
+                    <div class="availability">
+                        <span class="availability-dot"></span>
+                        <span>WELCOME TO MY PORTFOLIO</span>
+                    </div>
+
+                    <p class="hero-greeting">
+                        Hello, I'm <span>Caleb Makori</span>
+                    </p>
+
+                    <h1>
+                        I Build
+                        <span class="highlight-text">Digital</span>
+                        <br>
+                        Experiences<span class="orange-dot">.</span>
+                    </h1>
+
+                    <h2 class="hero-subtitle">
+                        Web Developer
+                        <span class="separator">|</span>
+                        Graphic Designer
+                    </h2>
+
+                    <p class="hero-description">
+                        I transform ideas into modern websites and compelling
+                        visual designs. I combine technology, creativity, and
+                        attention to detail to create digital experiences that
+                        make a lasting impression.
+                    </p>
+
+                    <!-- Hero Buttons -->
+                    <div class="hero-buttons">
+
+                        <a href="projects.html" class="btn btn-primary">
+                            Explore My Work
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="contact.html" class="btn btn-secondary">
+                            <i class="fa-regular fa-paper-plane"></i>
+                            Hire Me
+                        </a>
+
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="hero-socials">
+
+                        <span class="social-label">FOLLOW ME</span>
+
+                        <span class="social-line"></span>
+
+                        <!-- Replace # with your actual profile URLs -->
+                        <a href="#"
+                           class="social-link"
+                           aria-label="GitHub"
+                           title="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="#"
+                           class="social-link"
+                           aria-label="LinkedIn"
+                           title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#"
+                           class="social-link"
+                           aria-label="Instagram"
+                           title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE: PROFILE VISUAL -->
+                <div class="hero-visual">
+
+                    <div class="visual-orbit orbit-one"></div>
+                    <div class="visual-orbit orbit-two"></div>
+
+                    <!-- Main Profile Image -->
+                    <div class="profile-frame">
+
+                        <div class="profile-image-wrapper">
+
+                            <!--
+                            Create an images folder and place your photo inside it.
+                            Name your image: caleb-profile.png
+
+                            Replace this filename if your image has another name.
+                            -->
+                            <img
+                                src="images/caleb.png"
+                                alt="Caleb Makori, web developer and graphic designer"
+                                class="profile-image"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                            >
+
+                            <!-- Fallback if you have not added your photo yet -->
+                            <div class="profile-placeholder" style="display: none;">
+                                <i class="fa-solid fa-user"></i>
+                                <span>YOUR PHOTO</span>
+                            </div>
+
+                        </div>
+
+                        <div class="profile-frame-border"></div>
+
+                    </div>
+
+
+                    <!-- Floating Code Card -->
+                    <div class="floating-card code-card">
+
+                        <div class="card-heading">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>developer.js</span>
+                        </div>
+
+                        <div class="code-content">
+                            <p>
+                                <span class="code-purple">const</span>
+                                <span class="code-blue">developer</span>
+                                =
+                                <span class="code-orange"> {</span>
+                            </p>
+
+                            <p class="code-indent">
+                                name:
+                                <span class="code-green">'Caleb'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                passion:
+                                <span class="code-green">'Creating'</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                creativity:
+                                <span class="code-purple">true</span>
+                            </p>
+
+                            <p><span class="code-orange">};</span></p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Floating Design Card -->
+                    <div class="floating-card design-card">
+
+                        <div class="design-icon">
+                            <i class="fa-solid fa-pen-nib"></i>
+                        </div>
+
+                        <div>
+                            <h3>Creative Design</h3>
+                            <p>Ideas into visuals.</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Bottom Badge -->
+                    <div class="experience-badge">
+
+                        <div class="badge-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <div>
+                            <strong>Code & Create</strong>
+                            <span>Turning ideas into reality</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+            <a href="#about" class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </a>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+        <section class="section about-section" id="about">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">GET TO KNOW ME</span>
+
+                    <h2>
+                        About <span class="highlight-text">Me</span>
+                    </h2>
+
+                    <p>
+                        A creative mind passionate about technology,
+                        design, and building meaningful digital experiences.
+                    </p>
+                </div>
+
+                <div class="about-content">
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-laptop-code"></i>
+                        </div>
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            I create responsive, user-friendly websites
+                            with modern layouts, clean code, and attention
+                            to usability.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+
+                        <h3>Graphic Design</h3>
+
+                        <p>
+                            I explore creative visual concepts and design
+                            materials that communicate ideas clearly and
+                            make brands stand out.
+                        </p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="about-icon">
+                            <i class="fa-solid fa-lightbulb"></i>
+                        </div>
+
+                        <h3>Creative Thinking</h3>
+
+                        <p>
+                            I enjoy solving problems, learning new
+                            technologies, and turning fresh ideas into
+                            practical digital solutions.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section class="section skills-section" id="skills">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">WHAT I WORK WITH</span>
+
+                    <h2>
+                        My Technical <span class="highlight-text">Skills</span>
+                    </h2>
+
+                    <p>
+                        Technologies and creative tools I use to build
+                        and design digital experiences.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Website structure</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Layouts and styling</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Interactive websites</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-php"></i>
+                        <h3>PHP</h3>
+                        <p>Backend development</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>MySQL</h3>
+                        <p>Database management</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-pen-nib"></i>
+                        <h3>Graphic Design</h3>
+                        <p>Creative visual design</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS SECTION ================= -->
+        <section class="section projects-section" id="projects">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">MY RECENT WORK</span>
+
+                    <h2>
+                        Featured <span class="highlight-text">Projects</span>
+                    </h2>
+
+                    <p>
+                        A selection of projects that demonstrate my
+                        development skills and creative interests.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project One -->
+                    <article class="project-card">
+
+                        <div class="project-image project-image-one">
+                            <i class="fa-solid fa-pizza-slice"></i>
+                            <span class="project-number">PROJECT 01</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="project-category">
+                                WEB DEVELOPMENT
+                            </span>
+
+                            <h3>Urban Bites Pizza</h3>
+
+                            <p>
+                                A restaurant website designed to showcase
+                                menu items, display restaurant information,
+                                and provide an online customer experience.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+
+                            <!-- Replace # with your live project URL -->
+                            <a href="#"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project Two -->
+                    <article class="project-card">
+
+                        <div class="project-image project-image-two">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span class="project-number">PROJECT 02</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="project-category">
+                                WEB APPLICATION
+                            </span>
+
+                            <h3>School Management System</h3>
+
+                            <p>
+                                A school management project focused on
+                                organizing student information, academic
+                                records, announcements, and school services.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+
+                            <a href="#"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Project
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Project Three -->
+                    <article class="project-card">
+
+                        <div class="project-image project-image-three">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            <span class="project-number">PROJECT 03</span>
+                        </div>
+
+                        <div class="project-info">
+
+                            <span class="project-category">
+                                GRAPHIC DESIGN
+                            </span>
+
+                            <h3>Creative Design Collection</h3>
+
+                            <p>
+                                A collection of visual design concepts,
+                                promotional materials, and digital graphics
+                                created to communicate ideas effectively.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Graphic Design</span>
+                                <span>Branding</span>
+                                <span>Creativity</span>
+                            </div>
+
+                            <a href="contact.html" class="project-link">
+                                Request Portfolio
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES SECTION ================= -->
+        <section class="section services-section" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">WHAT I CAN DO FOR YOU</span>
+
+                    <h2>
+                        My <span class="highlight-text">Services</span>
+                    </h2>
+
+                    <p>
+                        Creative and technical solutions to help bring
+                        your ideas to life.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Website Development</h3>
+
+                        <p>
+                            Modern, responsive websites designed to work
+                            across desktop, tablet, and mobile devices.
+                        </p>
+
+                        <a href="contact.html">
+                            Discuss a Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+
+                        <h3>Graphic Design</h3>
+
+                        <p>
+                            Creative graphics, social media posters,
+                            promotional designs, and visual content.
+                        </p>
+
+                        <a href="contact.html">
+                            Discuss a Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="service-icon">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </div>
+
+                        <h3>Responsive Design</h3>
+
+                        <p>
+                            Clean layouts and accessible interfaces that
+                            adapt to different screen sizes.
+                        </p>
+
+                        <a href="contact.html">
+                            Discuss a Project
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT SECTION ================= -->
+        <section class="section contact-section" id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <div class="contact-content">
+
+                        <span class="section-tag">LET'S WORK TOGETHER</span>
+
+                        <h2>
+                            Have a Project
+                            <span class="highlight-text">in Mind?</span>
+                        </h2>
+
+                        <p>
+                            Let's collaborate to turn your ideas into
+                            something exceptional. Get in touch and let's
+                            create something meaningful together.
+                        </p>
+
+                        <a href="calebmakori01@gmail.com"
+                           class="btn btn-primary">
+                            Contact Me
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+
+                    </div>
+
+                    <div class="contact-decoration">
+                        <i class="fa-regular fa-envelope"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-bracket">&lt;</span>
+                CALEB<span class="logo-highlight">.</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <p>
+                Designing ideas. Developing possibilities.
+            </p>
+
+        
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; <span id="current-year"></span>
+                    Caleb Makori. All Rights Reserved.
+                </p>
+
+                <a href="index.html" class="back-to-top" aria-label="Back to top">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Main JavaScript -->
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore the web development, graphic design, Java programming, and database projects created by Caleb Makori.">
+
+    <meta name="author" content="Caleb Makori">
+
+    <title>My Projects | Caleb Makori</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/projects.css">
+
+
+</head>
+
+<body>
+
+    <!-- ================= PRELOADER ================= -->
+    <div id="preloader" aria-label="Loading page">
+        <div class="loader"></div>
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+    <header class="header" id="header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo" aria-label="Caleb Makori Home">
+                CALEB<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navigation">
+
+                <i class="fas fa-bars" aria-hidden="true"></i>
+
+            </button>
+
+            <nav class="navigation" id="navigation" aria-label="Main navigation">
+
+                <a href="index.html">Home</a>
+
+                <a href="about.html">About Me</a>
+
+                <a href="projects.html" class="active" aria-current="page">
+                    Projects
+                </a>
+
+                <a href="skills.html">Skills</a>
+
+                <a href="services.html">Services</a>
+
+                <a href="contact.html" class="nav-contact">
+                    Contact Me
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+    <section class="projects-hero">
+
+        <div class="container projects-hero-content">
+
+            <span class="section-label">
+                MY PORTFOLIO
+            </span>
+
+            <h1>
+                My Creative <span>Projects</span>
+            </h1>
+
+            <p>
+                Welcome to my project portfolio. Explore the websites,
+                applications, database systems, and graphic designs
+                I have worked on as I continue growing my skills
+                in technology and creativity.
+            </p>
+
+            <div class="projects-hero-buttons">
+
+                <a href="#project-gallery" class="btn btn-primary">
+                    <i class="fas fa-folder-open" aria-hidden="true"></i>
+                    Explore Projects
+                </a>
+
+                <a href="contact.html" class="btn btn-outline">
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                    Work With Me
+                </a>
+
+            </div>
+
+            <div class="projects-hero-stats">
+
+                <div class="hero-stat">
+                    <h3>Web</h3>
+                    <p>Development</p>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>UI/UX</h3>
+                    <p>Design</p>
+                </div>
+
+                <div class="hero-stat">
+                    <h3>Java</h3>
+                    <p>Programming</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="hero-decoration hero-decoration-one"></div>
+        <div class="hero-decoration hero-decoration-two"></div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ================= -->
+    <section class="projects-section" id="project-gallery">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    WHAT I'VE BUILT
+                </span>
+
+                <h2>
+                    Explore My <span>Work</span>
+                </h2>
+
+                <p>
+                    A selection of projects that demonstrate my interest
+                    in web development, software development, databases,
+                    and graphic design.
+                </p>
+
+            </div>
+
+
+            <!-- PROJECT FILTERS -->
+            <div class="project-filters" role="group"
+                 aria-label="Filter projects by category">
+
+                <button class="filter-btn active"
+                        type="button"
+                        data-filter="all"
+                        aria-pressed="true">
+                    All Projects
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="web"
+                        aria-pressed="false">
+                    Web Development
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="software"
+                        aria-pressed="false">
+                    Software
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="design"
+                        aria-pressed="false">
+                    Graphic Design
+                </button>
+
+                <button class="filter-btn"
+                        type="button"
+                        data-filter="database"
+                        aria-pressed="false">
+                    Databases
+                </button>
+
+            </div>
+
+
+            <!-- PROJECT GRID -->
+            <div class="project-grid">
+
+
+                <!-- PROJECT 1 -->
+                <article class="project-card" data-category="web">
+
+                    <div class="project-image project-image-orange">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-user-tie" aria-hidden="true"></i>
+                            <span>MY PORTFOLIO</span>
+                        </div>
+
+                        <span class="project-number">01</span>
+
+                        <span class="project-type">
+                            Web Development
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">PERSONAL PROJECT</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>Personal Portfolio Website</h3>
+
+                        <p>
+                            A professional portfolio website showcasing
+                            my background, technical skills, services,
+                            projects, and contact information.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="index.html" class="project-link">
+                                View Project
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project-card" data-category="web">
+
+                    <div class="project-image project-image-red">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-pizza-slice" aria-hidden="true"></i>
+                            <span>URBAN BITES</span>
+                        </div>
+
+                        <span class="project-number">02</span>
+
+                        <span class="project-type">
+                            Web Development
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">RESTAURANT WEBSITE</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>Urban Bites Pizza</h3>
+
+                        <p>
+                            A restaurant website project featuring a
+                            food menu, shopping cart, customer contact
+                            page, payment interface, and administration
+                            features.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="https://urbanbitescom.netlify.app"
+                               class="project-link"
+                               target="_blank"
+                               rel="noopener noreferrer">
+                                View Website
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+                <article class="project-card" data-category="web">
+
+                    <div class="project-image project-image-blue">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-graduation-cap"
+                               aria-hidden="true"></i>
+                            <span>SCHOOL SYSTEM</span>
+                        </div>
+
+                        <span class="project-number">03</span>
+
+                        <span class="project-type">
+                            Web Development
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">EDUCATION</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>School Management System</h3>
+
+                        <p>
+                            A school management website concept designed
+                            to organize student records, classes,
+                            announcements, fees, and academic results.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="contact.html" class="project-link">
+                                Ask About Project
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 4 -->
+                <article class="project-card" data-category="software">
+
+                    <div class="project-image project-image-purple">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-code" aria-hidden="true"></i>
+                            <span>JAVA APPLICATION</span>
+                        </div>
+
+                        <span class="project-number">04</span>
+
+                        <span class="project-type">
+                            Software Development
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">JAVA PROGRAMMING</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>Student Management System</h3>
+
+                        <p>
+                            A Java application concept for adding,
+                            displaying, searching, and managing student
+                            records, including marks and average scores.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>Scanner</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="contact.html" class="project-link">
+                                Ask About Project
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 5 -->
+                <article class="project-card" data-category="database">
+
+                    <div class="project-image project-image-green">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-database" aria-hidden="true"></i>
+                            <span>DATABASE DESIGN</span>
+                        </div>
+
+                        <span class="project-number">05</span>
+
+                        <span class="project-type">
+                            Database Development
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">DATABASE SYSTEMS</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>Database Management</h3>
+
+                        <p>
+                            Database design and practice involving
+                            structured records, relational tables,
+                            primary keys, foreign keys, and SQL queries.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>PHP</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="contact.html" class="project-link">
+                                Ask About Project
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 6 -->
+                <article class="project-card" data-category="design">
+
+                    <div class="project-image project-image-pink">
+
+                        <div class="project-image-content">
+                            <i class="fas fa-pen-nib" aria-hidden="true"></i>
+                            <span>CREATIVE DESIGN</span>
+                        </div>
+
+                        <span class="project-number">06</span>
+
+                        <span class="project-type">
+                            Graphic Design
+                        </span>
+
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-topline">
+                            <span class="project-category">VISUAL DESIGN</span>
+                            <i class="fas fa-arrow-up-right-from-square"
+                               aria-hidden="true"></i>
+                        </div>
+
+                        <h3>Graphic Design & Posters</h3>
+
+                        <p>
+                            Creative design concepts for social media,
+                            promotional posters, branding materials,
+                            and digital communication.
+                        </p>
+
+                        <div class="technology-tags">
+                            <span>Typography</span>
+                            <span>Branding</span>
+                            <span>Layout Design</span>
+                        </div>
+
+                        <div class="project-actions">
+
+                            <a href="contact.html" class="project-link">
+                                Discuss a Design
+                                <i class="fas fa-arrow-right"
+                                   aria-hidden="true"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- EMPTY FILTER MESSAGE -->
+            <p id="no-projects" class="no-projects" hidden>
+                No projects found in this category.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= WORK PROCESS ================= -->
+    <section class="work-process">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    HOW I WORK
+                </span>
+
+                <h2>
+                    My Creative <span>Process</span>
+                </h2>
+
+                <p>
+                    I approach every project with a focus on purpose,
+                    usability, creativity, and continuous improvement.
+                </p>
+
+            </div>
+
+            <div class="process-grid">
+
+                <article class="process-card">
+
+                    <div class="process-number">01</div>
+
+                    <i class="fas fa-lightbulb" aria-hidden="true"></i>
+
+                    <h3>Planning</h3>
+
+                    <p>
+                        Understanding the project requirements,
+                        audience, and goals before starting.
+                    </p>
+
+                </article>
+
+                <article class="process-card">
+
+                    <div class="process-number">02</div>
+
+                    <i class="fas fa-pencil-ruler" aria-hidden="true"></i>
+
+                    <h3>Design</h3>
+
+                    <p>
+                        Creating organized layouts and user-friendly
+                        designs that communicate clearly.
+                    </p>
+
+                </article>
+
+                <article class="process-card">
+
+                    <div class="process-number">03</div>
+
+                    <i class="fas fa-laptop-code" aria-hidden="true"></i>
+
+                    <h3>Development</h3>
+
+                    <p>
+                        Building the project with suitable technologies,
+                        clean code, and responsive layouts.
+                    </p>
+
+                </article>
+
+                <article class="process-card">
+
+                    <div class="process-number">04</div>
+
+                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+
+                    <h3>Testing</h3>
+
+                    <p>
+                        Checking functionality, fixing issues, and
+                        improving the overall user experience.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA SECTION ================= -->
+    <section class="projects-cta">
+
+        <div class="container projects-cta-content">
+
+            <div>
+                <span class="section-label">
+                    HAVE A PROJECT IN MIND?
+                </span>
+
+                <h2>
+                    Let's Build Something <span>Great.</span>
+                </h2>
+
+                <p>
+                    Have an idea for a website, application, or graphic
+                    design project? Let's discuss how we can bring it
+                    to life.
+                </p>
+            </div>
+
+            <a href="contact.html" class="btn btn-primary">
+                Contact Me
+                <i class="fas fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="index.html" class="logo">
+                CALEB<span>.</span>
+            </a>
+
+            <p>
+                &copy; <span id="current-year"></span>
+                Caleb Makori. All Rights Reserved.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.instagram.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="scripts/project.js"></script>
+
+</body>
+</html>
